@@ -33,3 +33,5 @@ services:
       - 'c 226:* rmw'
       # ... for /dev/galcore device
       - 'c 199:0 rmw'
+      # ... for /dev/dma_heap device
+      - 'c 253:* rmw'
